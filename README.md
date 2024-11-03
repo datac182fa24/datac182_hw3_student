@@ -8,6 +8,8 @@ Make sure your machine is set up with the assignment dependencies.
 
 ### [Option 1] Working on Colab (Recommended)
 We recommend working on Colab with GPU enabled since this assignment needs a fair amount of compute.
+
+Please follow the instructions below to work on Colab:
 In Colab, we can enforce using GPU by clicking `Runtime -> Change Runtime Type -> Hardware accelerator` and selecting `GPU`.
 The dependencies will be installed once the notebooks are excuted.
 
@@ -95,11 +97,6 @@ Upload this file to Gradescope.
 The Gradescope will run an autograder on the files you submit. It is very unlikely but still possible that your implementation might fail to pass some test cases due to randomness.
 If you think your code is correct, you can simply rerun the autograder to check check whether it is really due to randomness.
 
-
-## Q1: LSTM for Language Modeling (40 points)
-The IPython notebook `Language Modeling.ipynb` will introduce you to the implementation
-of preprocessing raw text and training an LSTM. Follow the instructions in the notebook to complete this part.
-
-## Q2: Transformer Network for Summarization (60 points)
+## Q1: Transformer Network for Summarization (60 points)
 The IPython notebook `Summarization.ipynb` will introduce you to the implementation
 of Transformer to summarize news articles. Follow the instructions in the notebook to complete this part.
