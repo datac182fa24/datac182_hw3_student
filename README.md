@@ -9,13 +9,39 @@ Make sure your machine is set up with the assignment dependencies.
 ### [Option 1] Working on Colab (Recommended)
 We recommend working on Colab with GPU enabled since this assignment needs a fair amount of compute.
 
-Please follow the instructions below to work on Colab:
-In Colab, we can enforce using GPU by clicking `Runtime -> Change Runtime Type -> Hardware accelerator` and selecting `GPU`.
-The dependencies will be installed once the notebooks are excuted.
+### Instructions for Colab:
+Please follow the instructions **carefully** below to work on Colab:
 
-The Colab version of this assigment can be found at [this Drive link](https://drive.google.com/drive/folders/114eYaGQhXI9lU0t1WykzEXflgehBvf6l?usp=sharing), please logining with you Berkeley email to view it.
-You should make a copy of the folder to your Google Drive otherwise the outputs will not be saved.
-Once the folder is copied, you can start working by clicking a Jupyter Notebook and openning it in Colab.
+First:
+* Clone the repository with `git clone git@github.com:datac182fa24/datac182_hw3_student.git` as usual.
+* Upload the created folder to Google Drive.
+* Double click on `summarization.ipynb` and open it in Colab
+
+The following steps should be done every time you open or re-open the notebook:
+* First, mount your Google Drive by running the following code in a cell:
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+* Navigate to the homework directory by running the following code in a cell:
+```python
+%cd /content/drive/MyDrive/PATH/TO/HW/REPO
+```
+So, for example if you uploaded the homework to a folder called `datac182_hw3_student` in your Google Drive, you would run:
+```python
+%cd /content/drive/MyDrive/datac182_hw3_student
+```
+* Download the dataset (**ONLY RUN ONCE**):
+```python
+!bash download_data.sh
+```
+
+### Submitting your work:
+Once you are done working, create a zip file of your work by running the following code in a cell:
+```python
+!bash collect_submission.sh
+```
+This will create a file called `assignment3.zip` in the current directory. Download this file to your computer and upload it to Gradescope.
 
 ### [Option 2] Install Anaconda and Required Packages (Slow)
 The preferred approach for installing all the assignment dependencies is to use
