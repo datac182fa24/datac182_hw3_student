@@ -123,6 +123,6 @@ Upload this file to Gradescope.
 The Gradescope will run an autograder on the files you submit. It is very unlikely but still possible that your implementation might fail to pass some test cases due to randomness.
 If you think your code is correct, you can simply rerun the autograder to check check whether it is really due to randomness.
 
-## Q1: Transformer Network for Summarization (60 points)
+## Q1: Transformer Network for Summarization (15 points)
 The IPython notebook `Summarization.ipynb` will introduce you to the implementation
 of Transformer to summarize news articles. Follow the instructions in the notebook to complete this part.
