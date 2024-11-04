@@ -114,7 +114,7 @@ Once you are done working, run the `collect_submission.ipynb` notebook if you wo
 If you worked locally, then run the `collect_submission.sh` script; this will produce a file called `assignment3.zip`.
 
 Check that your submission contains:
-- "1 Language Modeling.ipynb" and "2 Summarization.ipynb"
+- "smmarization.ipynb"
 - "transformer.py", "transformer_attention.py", "language_model.py"
 - Your folder for best models for each notebook, `best_models`
 - Your folder for submission logs, `submission_logs`
