@@ -16,6 +16,7 @@ First:
 * Clone the repository with `git clone git@github.com:datac182fa24/datac182_hw3_student.git` as usual.
 * Upload the created folder to Google Drive.
 * Double click on `summarization.ipynb` and open it in Colab
+* Make sure you're connected to a GPU runtime!
 
 The following steps should be done every time you open or re-open the notebook:
 * First, mount your Google Drive by running the following code in a cell:
