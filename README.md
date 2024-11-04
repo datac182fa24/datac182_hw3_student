@@ -1,4 +1,4 @@
-# CS182/282 Assignment 3
+# DATA 182 Assignment 3
 
 In this assignment you will implement a neural network to generate news headlines, by training an LSTM-based language model.
 You will also train a Transformer to summarize news articles.
