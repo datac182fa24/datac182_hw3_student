@@ -26,6 +26,7 @@ class AttentionQKV(nn.Module):
             :param mask:    Tensor with shape [batch_size, n_queries, n_queries]
 
             :return: output: Tensor with shape [batch_size, heads (optional), n_queries, depth_v]
+            :return: weights: Tensor with shape [batch_size, heads (optional), n_queries, n_keyval]
         """
         ####################################  YOUR CODE HERE  ####################################
         # n_queries corresponds to the sequence length on the query side
