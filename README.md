@@ -110,9 +110,7 @@ jupyter notebook
 ```
 
 ## Submitting your work:
-Once you are done working, run the `collect_submission.ipynb` notebook if you worked on Colab; this will produce a file called `assignment3.zip` and download it to your computer from Colab.
-
-If you worked locally, then run the `collect_submission.sh` script; this will produce a file called `assignment3.zip`.
+Once you are done working, run the `collect_submission.sh` script; this will produce a file called `assignment3.zip`.
 
 Check that your submission contains:
 - "smmarization.ipynb"
